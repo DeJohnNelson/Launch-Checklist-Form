@@ -31,29 +31,15 @@ window.addEventListener("load", function() {
            window.alert("All fields are required");
            event.preventDefault();
 
-         }   
-
+         } 
+         let pilotStatus = document.getElementById("pilotStatus")
+         let copilotStatus = document.getElementById("copilotStatus")
+         let cargoStatus = document.getElementById("cargoStatus")
+         let currentFuelStatus = document.getElementById("fuelStatus")
+         let launchStatus = document.getElementById("launchStatus")
+         let faultyItems = document.getElementById("faultyItems")
+         faultyItems.style.visibility = "visible";
+         
    })
 })
-
-// let button = document.getElementById("formSubmit")
-//     button.addEventListener("click",function() {
-//         let pilotNameInput = document.getElementById("input[name=pilotName]");
-//         console.log(pilotNameInput.value);
-//         let copilotName = document.getElementById("input[name=copilotName]");
-//         console.log(copilotName.value);
-//         let fuelLevelInput = document.getElementById("input[name=fuelLevel]");
-//         console.log(fuelLevelInput.value)
-//         let cargoMassInput = document.getElementById("input[name=cargoMass]")
-//         console.log(cargoMassInput.value)
-//     })
-   //  window.addEventListener("load", function() {
-   //      let form = document.querySelector("form");
-   //      form.addEventListener("submit", function(event) {
-   //          alert("Form Submitted")
-   //      });
-            
-            
-   //      });
-
 
